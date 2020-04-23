@@ -1,0 +1,12 @@
+---
+- hosts: all
+  tasks:
+    - name: to create a directory
+      file:
+        state: directory
+        mode: 0777
+        owner: student
+        path: /home/student/dir1
+
+
+

@@ -1,0 +1,16 @@
+    1  ansible-doc file
+    2  ansible-doc user
+    3  ansible-doc goup
+    4  ansible-doc group
+    5  ansible-doc yum
+    6  ansible-doc service
+    7  ansible-doc firewall
+    8  ansible-doc firewalld
+    9  cat inventory 
+   10  cat ansible.cfg 
+   11  cat playbook
+   12  cat playbook.yml 
+   13  cat playbook1.yml 
+   14  cat playbook3.yml 
+   15    cat playbook2.yml 
+   16  history > history

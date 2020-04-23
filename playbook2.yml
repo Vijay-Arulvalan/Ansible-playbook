@@ -1,0 +1,15 @@
+---
+- hosts: all
+  remote_user: root
+  tasks:
+    - name: to create a group
+      group:
+        name: LIT
+        state: present
+    - name: to create an user
+      user:
+        name: sam
+        uid: 2200
+        shell: /bin/csh
+        comment: ansible user
+        group: LIT
